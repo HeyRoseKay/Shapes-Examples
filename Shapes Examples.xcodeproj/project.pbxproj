@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0B12442E97647A004A8191 /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0B12432E97647A004A8191 /* Shapes */; };
 		893FDD1A2446383F00D107B2 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 893FDD192446383F00D107B2 /* readme.md */; };
 		895BF5D52445F65200B61ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5D42445F65200B61ADB /* AppDelegate.swift */; };
 		895BF5D72445F65200B61ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5D62445F65200B61ADB /* SceneDelegate.swift */; };
@@ -14,7 +15,6 @@
 		895BF5DB2445F65200B61ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895BF5DA2445F65200B61ADB /* Assets.xcassets */; };
 		895BF5DE2445F65200B61ADB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895BF5DD2445F65200B61ADB /* Preview Assets.xcassets */; };
 		895BF5E12445F65200B61ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895BF5DF2445F65200B61ADB /* LaunchScreen.storyboard */; };
-		895BF5EA2445F67000B61ADB /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 895BF5E92445F67000B61ADB /* Shapes */; };
 		895BF5EC2445F68500B61ADB /* Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5EB2445F68500B61ADB /* Lines.swift */; };
 		895BF5EE2445FBA300B61ADB /* Graphing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5ED2445FBA300B61ADB /* Graphing.swift */; };
 		895BF5F02445FDDC00B61ADB /* Triangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5EF2445FDDC00B61ADB /* Triangles.swift */; };
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895BF5EA2445F67000B61ADB /* Shapes in Frameworks */,
+				3C0B12442E97647A004A8191 /* Shapes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +183,7 @@
 			);
 			name = "Shapes Examples";
 			packageProductDependencies = (
-				895BF5E92445F67000B61ADB /* Shapes */,
+				3C0B12432E97647A004A8191 /* Shapes */,
 			);
 			productName = "Shapes Examples";
 			productReference = 895BF5D12445F65200B61ADB /* Shapes Examples.app */;
@@ -214,7 +214,7 @@
 			);
 			mainGroup = 895BF5C82445F65200B61ADB;
 			packageReferences = (
-				895BF5E82445F67000B61ADB /* XCRemoteSwiftPackageReference "Shapes" */,
+				3C0B12422E97647A004A8191 /* XCRemoteSwiftPackageReference "SwiftUI-Shapes" */,
 			);
 			productRefGroup = 895BF5D22445F65200B61ADB /* Products */;
 			projectDirPath = "";
@@ -410,14 +410,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shapes Examples/Preview Content\"";
-				DEVELOPMENT_TEAM = CJ3HCZ6WWQ;
+				DEVELOPMENT_TEAM = V5W5LAAYWJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Shapes Examples/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "BrownandSons.Shapes-Examples";
+				PRODUCT_BUNDLE_IDENTIFIER = "HeyRoseKay.Shapes-Examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -430,14 +430,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Shapes Examples/Preview Content\"";
-				DEVELOPMENT_TEAM = CJ3HCZ6WWQ;
+				DEVELOPMENT_TEAM = V5W5LAAYWJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Shapes Examples/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "BrownandSons.Shapes-Examples";
+				PRODUCT_BUNDLE_IDENTIFIER = "HeyRoseKay.Shapes-Examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,20 +468,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		895BF5E82445F67000B61ADB /* XCRemoteSwiftPackageReference "Shapes" */ = {
+		3C0B12422E97647A004A8191 /* XCRemoteSwiftPackageReference "SwiftUI-Shapes" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kieranb662/Shapes.git";
+			repositoryURL = "https://github.com/HeyRoseKay/SwiftUI-Shapes";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.4;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		895BF5E92445F67000B61ADB /* Shapes */ = {
+		3C0B12432E97647A004A8191 /* Shapes */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 895BF5E82445F67000B61ADB /* XCRemoteSwiftPackageReference "Shapes" */;
+			package = 3C0B12422E97647A004A8191 /* XCRemoteSwiftPackageReference "SwiftUI-Shapes" */;
 			productName = Shapes;
 		};
 /* End XCSwiftPackageProductDependency section */
