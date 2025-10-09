@@ -1,6 +1,8 @@
 # Shapes Example Project
 
-This is a compilation of examples using the [shapes library](https://github.com/kieranb662/Shapes) please feel free to try it out and contribute if you think something should be added or modified. 
+This is a compilation of examples using the [shapes library](https://github.com/HeyRoseKay/SwiftUI-Shapes) please feel free to try it out and contribute if you think something should be added or modified. 
+
+(Forked from [Kieran](https://github.com/kieranb662))
 
 <p align="center">
   <img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/ShapesCollage.PNG">
