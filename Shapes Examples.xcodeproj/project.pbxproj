@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C0B12442E97647A004A8191 /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0B12432E97647A004A8191 /* Shapes */; };
+		3C5B67D12EE95453007C1E28 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B67D02EE95453007C1E28 /* LICENSE */; };
 		893FDD1A2446383F00D107B2 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 893FDD192446383F00D107B2 /* readme.md */; };
 		895BF5D52445F65200B61ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5D42445F65200B61ADB /* AppDelegate.swift */; };
 		895BF5D72445F65200B61ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BF5D62445F65200B61ADB /* SceneDelegate.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C5B67D02EE95453007C1E28 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		893FDD192446383F00D107B2 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		895BF5D12445F65200B61ADB /* Shapes Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shapes Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		895BF5D42445F65200B61ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		895BF5C82445F65200B61ADB = {
 			isa = PBXGroup;
 			children = (
+				3C5B67D02EE95453007C1E28 /* LICENSE */,
 				893FDD192446383F00D107B2 /* readme.md */,
 				895BF5FD24461F3200B61ADB /* Media */,
 				895BF5D32445F65200B61ADB /* Shapes Examples */,
@@ -246,6 +249,7 @@
 				895BF5DB2445F65200B61ADB /* Assets.xcassets in Resources */,
 				895BF61D24461F3200B61ADB /* Polar.png in Resources */,
 				895BF61324461F3200B61ADB /* AdaptiveLine.mov in Resources */,
+				3C5B67D12EE95453007C1E28 /* LICENSE in Resources */,
 				895BF61F24461F3200B61ADB /* HorizontalLine.MP4 in Resources */,
 				895BF61624461F3200B61ADB /* Pentagon.png in Resources */,
 				895BF61B24461F3200B61ADB /* PathText.MP4 in Resources */,

@@ -1,0 +1,24 @@
+{
+  "originHash" : "5192d0ee5b807b1c993f519f12073f6831b6a6c226a181a932b1649ccefc1ee2",
+  "pins" : [
+    {
+      "identity" : "cgextender",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HeyRoseKay/CGExtender.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5da73ec5c21c8bb41cbbfd47a38eded88382a679"
+      }
+    },
+    {
+      "identity" : "swiftui-shapes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HeyRoseKay/SwiftUI-Shapes",
+      "state" : {
+        "branch" : "master",
+        "revision" : "8245d688e4d6cf27ef79702959174e65dc75a065"
+      }
+    }
+  ],
+  "version" : 3
+}
